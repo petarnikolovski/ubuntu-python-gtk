@@ -12,6 +12,10 @@ RUN add-apt-repository -y ppa:deadsnakes/ppa
 RUN apt-get update && apt-get install -y \
   python \
   python3 \
+  python-dev \
+  python3-dev \
+  python3.5-dev \
+  python3.7-dev \
   python-pip \
   python3-pip \
   python3.5 \
